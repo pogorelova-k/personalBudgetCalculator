@@ -1,6 +1,6 @@
 "use strict";
 
-const     start = document.getElementById('start'),
+const   start = document.getElementById('start'),
         cancel = document.getElementById('cancel'),
         depositCheck = document.querySelector('#deposit-check'),
         additionalIncomeItem = document.querySelectorAll('.additional_income-item'),
@@ -70,8 +70,6 @@ class AppData {
     
         this.getExpInc();
         this.getExpensesMonth();
-        // this.getAddExpenses();
-        // this.getAddIncome();
         this.getAdditionalExpInc();
         this.getBudget();
         this.showResult();
